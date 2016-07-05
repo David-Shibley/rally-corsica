@@ -1,0 +1,34 @@
+{
+    "settings::timer": {
+        "resetTime": 15000,
+        "jitter": 1500,
+        "resetOnConnect": true,
+        "screens": {
+            "pdx-ambient1": {
+                "resetTime": 300000,
+                "jitter": 60000
+            }
+        }
+    },
+    "settings::tags": {
+        "tags": [
+            {
+                "name": "ambient",
+                "commands": [
+                    "gslide comment=\"view source 2016\" id=1g9m6sVnQhiAjKAyFmtTKHIF6YfTmZJiHHtUWHMaG9lw",
+                    "https://www.wunderground.com/us/co/denver",
+                    "http://loremflickr.com/1024/768",
+                    "http://wisdomofchopra.com/",
+                    "http://shitty.news/",
+                    "http://urro.ci/view/%20Build%20Light%20View/ comment=\"WebQA Build Status\""
+                ]
+            }
+        ]
+    },
+    "settings::corsica-irc": {
+        "server": "irc.mozilla.org",
+        "channels": [
+            "#mozpdx"
+        ]
+    }
+}
